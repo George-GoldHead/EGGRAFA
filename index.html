@@ -135,29 +135,18 @@ const THEMES = [
 
 // ── STATE ──
 const DEFAULT_CARDS = [
-    { id:1, name:'Γιώργος', fields:[
-        {id:'f1',  label:'ΑΔΤ',              value:'',                   category:'Προσωπικά', type:'text'},
-        {id:'f2',  label:'ΑΦΜ',              value:'',                   category:'Προσωπικά', type:'text'},
-        {id:'f3',  label:'ΑΜΚΑ',             value:'',                 category:'Υγεία',     type:'text'},
-        {id:'f4',  label:'ΑΜΑ',              value:'',                     category:'Υγεία',     type:'text'},
-        {id:'p1',  label:'Κινητό Προσωπικό', value:'',                  category:'Προσωπικά', type:'phone'},
-        {id:'p2',  label:'Σταθερό',          value:'',                  category:'Προσωπικά', type:'phone'},
-        {id:'p3',  label:'Κινητό Εταιρικό',  value:'',                  category:'Προσωπικά', type:'phone'},
-        {id:'f5',  label:'Erg IBAN',         value:'', category:'Τράπεζα',   type:'iban'},
-        {id:'f6',  label:'Ath IBAN',         value:'', category:'Τράπεζα',   type:'iban'},
-        {id:'f7',  label:'Δίπλωμα',          value:'',                   category:'Άλλο',      type:'text'},
-    ]},
-    { id:2, name:'Τασούλα', fields:[
-        {id:'f8',  label:'ΑΔΤ',              value:'',                   category:'Προσωπικά', type:'text'},
-        {id:'f9',  label:'ΑΦΜ',             value:'',                   category:'Προσωπικά', type:'text'},
-        {id:'f10', label:'ΑΜΚΑ',             value:'',                 category:'Υγεία',     type:'text'},
-        {id:'p4',  label:'Κινητό Προσωπικό', value:'',                  category:'Προσωπικά', type:'phone'},
-    ]},
-    { id:3, name:'Κώστας', fields:[
-        {id:'f11', label:'ΑΦΜ',              value:'',                   category:'Προσωπικά', type:'text'},
-        {id:'f12', label:'Erg IBAN',         value:'', category:'Τράπεζα',   type:'iban'},
-    ]},
-    { id:4, name:'Σουσάνα', fields:[] },
+  { 
+    id: 1, 
+    name: 'Τα Έγγραφά Μου', 
+    fields: [
+      { id: 'f1', label: 'ΑΔΤ', value: '', category: 'Προσωπικά', type: 'text' },
+      { id: 'f2', label: 'ΑΦΜ', value: '', category: 'Προσωπικά', type: 'text' },
+      { id: 'f3', label: 'ΑΜΚΑ', value: '', category: 'Υγεία', type: 'text' },
+      { id: 'f4', label: 'ΑΜΑ', value: '', category: 'Υγεία', type: 'text' },
+      { id: 'p1', label: 'Κινητό Προσωπικό', value: '', category: 'Προσωπικά', type: 'phone' },
+      { id: 'f5', label: 'IBAN', value: '', category: 'Τράπεζα', type: 'iban' }
+    ] 
+  }
 ];
 
 let state = {
