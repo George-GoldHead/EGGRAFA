@@ -1,7 +1,7 @@
 // Smart Vault v3.6 — Service Worker
 // Offline-first cache strategy
 
-const CACHE_NAME = 'eggrafa-v3.6';
+const CACHE_NAME = 'eggrafa';
 const ASSETS = [
     '/',
     '/index.html',
