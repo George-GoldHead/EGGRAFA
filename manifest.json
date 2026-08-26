@@ -24,7 +24,7 @@
       "name": "Νέα Καρτέλα",
       "short_name": "Νέα",
       "description": "Προσθήκη νέας καρτέλας εγγράφων",
-      "url": "/",
+      "url": "./",
       "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
     }
   ]
