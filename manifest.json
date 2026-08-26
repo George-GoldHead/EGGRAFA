@@ -1,6 +1,6 @@
 {
   "name": "Smart Vault — GT Documents",
-  "short_name": "Smart Vault",
+  "short_name": "eggrafa",
   "description": "Ψηφιακό θησαυροφυλάκιο εγγράφων — ΑΔΤ, ΑΦΜ, ΑΜΚΑ, IBAN και άλλα",
   "start_url": "/",
   "display": "standalone",
