@@ -3,12 +3,11 @@
 
 const CACHE_NAME = 'eggrafa';
 const ASSETS = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/icons/icon-192x192.png',
-    '/icons/icon-512x512.png',
-    '/icons/apple-touch-icon.png',
+    'index.html',
+    'manifest.json',
+    'icons/icon-192x192.png',
+    'icons/icon-512x512.png',
+    'icons/apple-touch-icon.png',
     'https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js',
     'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
 ];
