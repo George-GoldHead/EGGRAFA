@@ -1,0 +1,9 @@
+node_modules/
+package.json
+package-lock.json
+tailwind.config.js
+tw-input.css
+tw-output.css
+*.log
+.DS_Store
+Thumbs.db
